@@ -1,0 +1,9 @@
+review_no,confusion_group,actual,predicted,prompt_or_context,candidate_ip,analyst_observation,forensic_interpretation,reviewer_initials
+1,FP,0,1,	<string>257.0.1.38.116</string>;257.0.1.38 ->,,,,
+2,FP,0,1,	<string>257.0.1.38.116</string>;257.0.1.38 ->,,,,
+3,TN,0,0,	<string>3608.80.24.1.8</string>;608.80.24.1 ->,,,,
+4,TN,0,0,	<string>3608.80.24.1.8</string>;608.80.24.1 ->,,,,
+5,TP,1,1,	<string>2.20.31.4</string>;2.20.31.4 ->,,,,
+6,TP,1,1,		<string>13.3.1.17D50</string>;13.3.1.17 ->,,,,
+7,FP,0,1,			<string>tincan_register_device_256.0.1.26.113</string>;256.0.1.26 ->,,,,
+8,FP,0,1,			<string>tincan_register_device_257.0.1.38.116</string>;257.0.1.38 ->,,,,

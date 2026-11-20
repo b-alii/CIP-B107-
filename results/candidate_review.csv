@@ -1,0 +1,72 @@
+source_row,context,candidate,regex_match,ipv4_valid,source_label,analyst_note
+1,	<string>3608.80.24.1.8</string>;608.80.24.1 ->,608.80.24.1,True,False,negative,Regex match but invalid IPv4
+2,	<string>2.20.31.4</string>;2.20.31.4 ->,2.20.31.4,True,True,positive,Valid IPv4 candidate
+2,	<string>2.20.31.4</string>;2.20.31.4 ->,2.20.31.4,True,True,positive,Valid IPv4 candidate
+3,		<string>13.3.1.17D50</string>;13.3.1.17 ->,13.3.1.17,True,True,positive,Valid IPv4 candidate
+3,		<string>13.3.1.17D50</string>;13.3.1.17 ->,13.3.1.17,True,True,positive,Valid IPv4 candidate
+4,		<string>13.3.1.17D50</string>;13.3.1.17 ->,13.3.1.17,True,True,positive,Valid IPv4 candidate
+4,		<string>13.3.1.17D50</string>;13.3.1.17 ->,13.3.1.17,True,True,positive,Valid IPv4 candidate
+5,		<string>104.36.225.166</string>;104.36.225.166 ->,104.36.225.166,True,True,positive,Valid IPv4 candidate
+5,		<string>104.36.225.166</string>;104.36.225.166 ->,104.36.225.166,True,True,positive,Valid IPv4 candidate
+6,		<string>104.36.225.154</string>;104.36.225.154 ->,104.36.225.154,True,True,positive,Valid IPv4 candidate
+6,		<string>104.36.225.154</string>;104.36.225.154 ->,104.36.225.154,True,True,positive,Valid IPv4 candidate
+7,		<string>104.36.225.179</string>;104.36.225.179 ->,104.36.225.179,True,True,positive,Valid IPv4 candidate
+7,		<string>104.36.225.179</string>;104.36.225.179 ->,104.36.225.179,True,True,positive,Valid IPv4 candidate
+8,		<string>104.36.225.142</string>;104.36.225.142 ->,104.36.225.142,True,True,positive,Valid IPv4 candidate
+8,		<string>104.36.225.142</string>;104.36.225.142 ->,104.36.225.142,True,True,positive,Valid IPv4 candidate
+9,			<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->,10.5.0.1,True,True,positive,Valid IPv4 candidate
+10,	<string>20.10.0.8</string>;20.10.0.8 ->,20.10.0.8,True,True,positive,Valid IPv4 candidate
+10,	<string>20.10.0.8</string>;20.10.0.8 ->,20.10.0.8,True,True,positive,Valid IPv4 candidate
+11,	<string>135.0.0.22.118</string>;135.0.0.22 ->,135.0.0.22,True,True,positive,Valid IPv4 candidate
+12,		<string>34.227.164.166</string>;34.227.164.166 ->,34.227.164.166,True,True,positive,Valid IPv4 candidate
+12,		<string>34.227.164.166</string>;34.227.164.166 ->,34.227.164.166,True,True,positive,Valid IPv4 candidate
+13,			<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->,10.5.0.1,True,True,positive,Valid IPv4 candidate
+14,		<string>eng-USA-OfflineIOS-7.0.0.4-20200319</string>;7.0.0.4 ->,7.0.0.4,True,True,positive,Valid IPv4 candidate
+14,		<string>eng-USA-OfflineIOS-7.0.0.4-20200319</string>;7.0.0.4 ->,7.0.0.4,True,True,positive,Valid IPv4 candidate
+15,	<string>7.4.1.2</string>;7.4.1.2 ->,7.4.1.2,True,True,positive,Valid IPv4 candidate
+15,	<string>7.4.1.2</string>;7.4.1.2 ->,7.4.1.2,True,True,positive,Valid IPv4 candidate
+16,	<string>64.98.122.70</string>;64.98.122.70 ->,64.98.122.70,True,True,positive,Valid IPv4 candidate
+16,	<string>64.98.122.70</string>;64.98.122.70 ->,64.98.122.70,True,True,positive,Valid IPv4 candidate
+17,	<string>20.10.0.8</string>;20.10.0.8 ->,20.10.0.8,True,True,positive,Valid IPv4 candidate
+17,	<string>20.10.0.8</string>;20.10.0.8 ->,20.10.0.8,True,True,positive,Valid IPv4 candidate
+18,	<string>12.6.0.1</string>;12.6.0.1 ->,12.6.0.1,True,True,positive,Valid IPv4 candidate
+18,	<string>12.6.0.1</string>;12.6.0.1 ->,12.6.0.1,True,True,positive,Valid IPv4 candidate
+19,	<string>12.6.0.1</string>;12.6.0.1 ->,12.6.0.1,True,True,positive,Valid IPv4 candidate
+19,	<string>12.6.0.1</string>;12.6.0.1 ->,12.6.0.1,True,True,positive,Valid IPv4 candidate
+20,	<string>257.0.1.38.116</string>;257.0.1.38 ->,257.0.1.38,True,False,negative,Regex match but invalid IPv4
+21,	<string>257.0.1.38.116</string>;257.0.1.38 ->,257.0.1.38,True,False,negative,Regex match but invalid IPv4
+22,			<string>tincan_register_device_256.0.1.26.113</string>;256.0.1.26 ->,256.0.1.26,True,False,negative,Regex match but invalid IPv4
+23,			<string>tincan_register_device_257.0.1.38.116</string>;257.0.1.38 ->,257.0.1.38,True,False,negative,Regex match but invalid IPv4
+24,	<string>257.0.1.38.116</string>;257.0.1.38 ->,257.0.1.38,True,False,negative,Regex match but invalid IPv4
+25,	<string>257.0.1.38.116</string>;257.0.1.38 ->,257.0.1.38,True,False,negative,Regex match but invalid IPv4
+26,	<string>135.0.0.22.118 (206072690)</string>;135.0.0.22 ->,135.0.0.22,True,True,positive,Valid IPv4 candidate
+27,	<string>2.20.31.4</string>;2.20.31.4 ->,2.20.31.4,True,True,positive,Valid IPv4 candidate
+27,	<string>2.20.31.4</string>;2.20.31.4 ->,2.20.31.4,True,True,positive,Valid IPv4 candidate
+28,	<string>3.6.1.4</string>;3.6.1.4 ->,3.6.1.4,True,True,positive,Valid IPv4 candidate
+28,	<string>3.6.1.4</string>;3.6.1.4 ->,3.6.1.4,True,True,positive,Valid IPv4 candidate
+29,			<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->,10.5.0.1,True,True,positive,Valid IPv4 candidate
+30,	<string>12.6.0.1</string>;12.6.0.1 ->,12.6.0.1,True,True,positive,Valid IPv4 candidate
+30,	<string>12.6.0.1</string>;12.6.0.1 ->,12.6.0.1,True,True,positive,Valid IPv4 candidate
+31,			<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->,10.5.0.1,True,True,positive,Valid IPv4 candidate
+32,	<string>12.6.0.1</string>;12.6.0.1 ->,12.6.0.1,True,True,positive,Valid IPv4 candidate
+32,	<string>12.6.0.1</string>;12.6.0.1 ->,12.6.0.1,True,True,positive,Valid IPv4 candidate
+33,	<string>15.21.2.14594</string>;15.21.2.145 ->,15.21.2.145,True,True,positive,Valid IPv4 candidate
+34,			<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->,10.5.0.1,True,True,positive,Valid IPv4 candidate
+35,	<string>3608.80.24.1.8</string>;608.80.24.1 ->,608.80.24.1,True,False,negative,Regex match but invalid IPv4
+36,	<string>5.12.20.4.10.18.5.5.2</string>;5.12.20.4 ->,5.12.20.4,True,True,positive,Valid IPv4 candidate
+37,	<string>5.12.20.4.10.18.5.5.2</string>;10.18.5.5 ->,10.18.5.5,True,True,positive,Valid IPv4 candidate
+38,	<string>3608.80.24.1.8</string>;608.80.24.1 ->,608.80.24.1,True,False,negative,Regex match but invalid IPv4
+39,	<string>12.6.0.1</string>;12.6.0.1 ->,12.6.0.1,True,True,positive,Valid IPv4 candidate
+39,	<string>12.6.0.1</string>;12.6.0.1 ->,12.6.0.1,True,True,positive,Valid IPv4 candidate
+40,			<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->,10.5.0.1,True,True,positive,Valid IPv4 candidate
+41,	<string>2.20.31.4</string>;2.20.31.4 ->,2.20.31.4,True,True,positive,Valid IPv4 candidate
+41,	<string>2.20.31.4</string>;2.20.31.4 ->,2.20.31.4,True,True,positive,Valid IPv4 candidate
+42,	<string>3608.80.24.1.8</string>;608.80.24.1 ->,608.80.24.1,True,False,negative,Regex match but invalid IPv4
+43,						<string>255.255.255.255</string>;255.255.255.255 ->,255.255.255.255,True,True,positive,Valid IPv4 candidate
+43,						<string>255.255.255.255</string>;255.255.255.255 ->,255.255.255.255,True,True,positive,Valid IPv4 candidate
+44,						<string>0.0.0.0</string>;0.0.0.0 ->,0.0.0.0,True,True,negative,Valid IPv4 candidate
+44,						<string>0.0.0.0</string>;0.0.0.0 ->,0.0.0.0,True,True,negative,Valid IPv4 candidate
+45,						<string>255.255.255.255</string>;255.255.255.255 ->,255.255.255.255,True,True,positive,Valid IPv4 candidate
+45,						<string>255.255.255.255</string>;255.255.255.255 ->,255.255.255.255,True,True,positive,Valid IPv4 candidate
+46,						<string>0.0.0.0</string>;0.0.0.0 ->,0.0.0.0,True,True,negative,Valid IPv4 candidate
+46,						<string>0.0.0.0</string>;0.0.0.0 ->,0.0.0.0,True,True,negative,Valid IPv4 candidate
