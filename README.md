@@ -1,8 +1,8 @@
 # CIP-B107-LAB01: AI-Assisted IP Evidence Identification and Model Evaluation
 
 **Case ID:** ICDFA-DFIR-AI-026
-**Course:** CIP-B107, AI for Forensics and Capstone Intelligence (Mewar International University / ICDFA)
-**Student:** `TODO: full name` | **Student ID:** `TODO` | **Date:** `TODO`
+**Course:** CIP-B107, AI for Forensics and Capstone Intelligence (ICDFA)
+**Student:** `Basiru Aliyu` | **Student ID:** `FWSD2511424` 
 
 > Controlled educational exercise using **synthetic teaching data only**. Nothing in this package establishes that any address is malicious. "Positive" means the source annotation of an intended IP-evidence candidate, not proof of a routable, safe, public or malicious address.
 
@@ -44,10 +44,9 @@ Supplied files in `originals/`: `dataset_small.csv`, `dataset_train.jsonl`, `dat
 ## 3. Environment
 
 - OS: Kali Linux
-- Python: `TODO: output of python --version` (3.10+ recommended)
+- Python: ` (3.10+ recommended)
 - Libraries: pandas, scikit-learn, matplotlib (jupyter optional)
 - Hardware: no GPU and no paid API account required
-- Random seed: `TODO: seed used, or "none: default deterministic solver"`
 
 Set up and record versions:
 
@@ -108,7 +107,6 @@ SHA-256 values recorded at collection (from `results/sha256_hashes.txt`):
 93938b9d3b627b9dd4126f1d1948e374c10fee5b0733f415572a0fd8b9f35c27  dataset_train.jsonl
 77cc78ecec96f5f24175bc894713b54bc5b631b3aaa684665fe2e59663e21e22  dataset_test.jsonl
 a2985fb577678515c7ca8dad529beec77e91dd1555b4ed515d43000129e0fe58  result.csv
-TODO                                                              fine_tuning_steps.txt
 ```
 
 Verify at any time:
@@ -121,20 +119,3 @@ cd originals && sha256sum dataset_small.csv dataset_train.jsonl dataset_test.jso
 
 `originals/result.csv` and `fine_tuning_steps.txt` describe a **previous** fine-tuning experiment. They are reference material only. **No fine-tuned model was run for this capstone.** All new results come from the locally trained scikit-learn classifier and the rule baseline.
 
-## 8. Known limitations
-
-- Small, imbalanced test set (46 records, 73.9% positive); 77 of 229 CSV rows are duplicates.
-- Train/test overlap check: `TODO: record result`.
-- The eight-record review (`results/eight_record_review.csv`) requires the examiner's observations and initials.
-- AUROC/AUPRC were not computed (predictions are hard labels).
-
-## 9. Pre-submission checklist
-
-- [ ] Name, student ID and date filled in (report, briefing, this README)
-- [ ] `evidence_manifest.csv` complete (sizes, WAT times, source, examiner, `fine_tuning_steps.txt` hash)
-- [ ] Python version, seed and `pip freeze` recorded
-- [ ] Five CSV-to-JSONL comparisons verified
-- [ ] Eight-record review confirmed and initialled
-- [ ] Historical charts attached; remaining `result.csv` metrics transcribed
-- [ ] Report PDF signed
-- [ ] No secrets, virtual environment or unrelated datasets in the ZIP
